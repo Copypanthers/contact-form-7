@@ -778,7 +778,7 @@ class WPCF7_ContactForm {
 
 
                 $post['oid']             = '00Db0000000Z5dc'; //set your OID number here
-                if (@$_SERVER["APLLICATION_ENV"] == "test"){
+                if (@$_SERVER["APPLICATION_ENV"] == "test"){
                 	$post["oid"] = "00D110000005hIN";
                 }
                 //$post['lead_source']    = get_bloginfo('url'); //change the lead source if you don't want it to be the url of your site
